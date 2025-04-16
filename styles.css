@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(45deg, #020617 0%, #0f172a 50%, #020617 100%);
+    background-size: 400% 900%;
+    /* animation: color 20s ease-in-out infinite; */
+}
+
+.nav-link:hover{
+    color: #89ffac !important;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.bg-dark{
+    background: black !important;
+}
+
+.bx-menu{
+    color: white !important;
+    font-size: 1.7rem;
+}
+
+
+.img-profile{
+    box-shadow: 0 0px 30px #6b757d,
+                0 0px 60px #6b757d,
+                0 0px 90px #6b757d;
+}
+
+
+.fa-xmark{
+    font-size: 1.5rem;
+}
+
+a{
+    color: white !important;
+}
+
+#jumbotron{
+    width: 100%;
+    height: 100Vh !important;
+}
+
+#jumbotron .container{
+    height: 100%;
+
+}
+
+#jumbotron h6{
+    letter-spacing: 2px;
+}
+
+#jumbotron .sosmed a{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+
+.typed{
+    color: #89ffac !important;
+}
+
+/* HABILIDADES */
+
+
+h3.sub-tittle{
+    color: #89ffac !important;
+}
+
+.card{
+    border-radius: 10px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: none;
+
+    padding: 10px !important;
+
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+
+    color: white !important;
+}
+
+.tecnicas{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+div.card:hover{
+    cursor: pointer;
+}
+
+.card img{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+#skills .col-md i{
+    font-size: 8rem !important;
+}
+
+/* EXPERIENCIA */
+
+.proyecto{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.proyecto:hover{
+    transform: translateY(-.5rem);
+    background: rgb(82, 82, 82) !important;
+    color: #020617 !important;
+    transition: 0.8s !important;
+}
+
+.proyecto img{
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.card-title{
+    color: #89ffac !important;
+}
+
+
+/* EDUCACION */
+
+.carousel-control-prev-icon{
+    background-color: black !important;
+}
+
+.carousel-control-next-icon{
+    background-color: black !important;
+}
+
+/* APRENDIZAJE FUTURO */
+#learn div.container{
+    width: 100% !important;
+}
+
+
+img.img-learn{
+    width: 10rem !important;
+    height: 5rem !important;
+}
+
+/* CONTACTO */
+
+
+#contact form{
+    display: felx;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 49%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 18px 10px;
+    border: 0;
+    border-bottom: 2px solid #89ffac;
+    font-size: 17px;
+}
+
+textarea{
+    border-radius: 10px;
+    padding: 18px 10px;
+    border: 0;
+    border-bottom: 2px solid #89ffac;
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#contacto input[type="submit"]{
+    width: 100%;
+    margin: auto;
+}
+
+/* FOOTER */
+
+.fa-circle-chevron-up{
+    font-size: 50px !important;
+}
+
+@media(min-width:320px) and (max-width:768px){
+    #jumbotron .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-img-profile{
+        padding-top: 40px !important;
+    }
+
+    #jumbotron img{
+        width: 60% !important;
+        
+    }
+    .detail-profile{
+        width: 100%;
+        padding-top: 40px !important;
+    }
+
+
+    img.img-learn{
+        text-align: center !important;
+        width: 80% !important;
+        height: 200px !important;
+    }
+
+    .cont-form{
+        width: 90% !important;
+    }
+
+    input[type="text"],
+    input[type="email"]{
+    width: 100%;
+    
+    }
+}

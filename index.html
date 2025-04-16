@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Balero</title>
+
+    <!-- BOOTSTRAP 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body class="bg-opacity vh-100 ">
+
+    <!-- Inicio NavBar -->
+    <nav class="navbar navbar-expand-md fixed-top bg-body-transparent  px-4 py-4">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white text-end" href="#">Sergio Balero</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation"><i class="bx bx-menu"></i></button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header" data-bs-theme="dark">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button class="btn btn-close btn-close-white" type="button" class="btn-close "
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body ">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#skills">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Educacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-success rounded" href="#contact">Contactame!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin NavBar -->
+
+    <!-- INICIO PRESENTACION -->
+    <section id="jumbotron" class="py-4">
+        <div class="container d-flex justify-content-center align-items-center text-light flex-wrap">
+            <div class="col-md-5 d-flex justify-content-center container-img-profile">
+                <img src="img/perfil (2).jpg" class="w-75 rounded-circle img-fluid img-profile" alt="">
+            </div>
+            <div class="col-md-7 px-5 detail-profile">
+
+                <h1 class="fw-bold">Sergio Balero</h1>
+                <h3>Soy un <span class=" typed"></span></h3>
+                <a href="#contact" class="btn btn-secondary btn-sm mt-4 mb-4 rounded">Contactame</a>
+                <a href="#vid-presentacion" class="btn btn-secondary btn-sm mt-4 mb-4 rounded">Video Presentacion</a>
+                <div class="sosmed d-flex flex-row mt-2 ">
+                    <a href="https://github.com/Eliel181"  target="_blank" class="mx-2 rounded-circle btn btn-outline-light"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="#"  target="_blank" class="mx-2 rounded-circle btn btn-outline-primary"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN PRESENTACION -->
+
+    <!-- INICIO HABILIDADES -->
+    <section id="skills" class="py-4 container d-flex align-items-center flex-column">
+        <div class="bg-black w-100 rounded">
+            <h2 class="text-center text-white py-4">Habilidades</h2>
+        </div>
+        <div class="py-4">
+            <h3 class="px-4 sub-tittle text-center">Blandas</h3>
+        </div>
+        <div class="row container">
+            <div class="col-lg-4 col-sm-12 d-flex justify-content-center pb-4">
+                <div class="card bg-transparent">
+                    <img src="/img/comunicacion.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Comunicación</h5>
+                        <p class="card-text">Tengo la capacidad de transmitir ideas de manera clara y persuasiva, lo que me permite interactuar de manera efectiva con colegas, clientes y superiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 d-flex justify-content-center pb-4">
+                <div class="card bg-transparent p-3">
+                    <img src="/img/motivacion.png" class="card-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Trabajo en Equipo</h5>
+                        <p class="card-text">Disfruto colaborar con otros y creo en el poder del trabajo en equipo para alcanzar metas comunes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 d-flex justify-content-center pb-4">
+                <div class="card bg-transparent">
+                    <img src="/img/lapiz.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Resolución de Problemas</h5>
+                        <p class="card-text">Ante los desafíos, tengo la capacidad de analizar la situación, identificar las posibles soluciones y tomar decisiones informadas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row container d-flex justify-content-between align-items-center">
+            <div class="py-4 w-100">
+                <h3 class="px-4 sub-tittle text-center">Conocimientos</h3>
+            </div>
+            <div class="col-md pb-4 ">
+                <div class="card tecnicas bg-transparent">
+                    <i class='bx bxl-html5' style="color:#ff7402"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML5</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm-4 pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class='bx bxl-css3' style="color: blue;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS3</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm-4 pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class='bx bxl-javascript' style="color: yellow;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class='bx bxl-bootstrap' style="color: purple;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class="fa-brands fa-node-js" style="color: green;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Node-JS</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class="fa-brands fa-git-alt" style="color: red"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Git</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class="fa-brands fa-react" style="color:aqua"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">React</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class="fa-brands fa-java" style="color: honeydew;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class='bx bxl-spring-boot' style="color: chartreuse;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">SpringBoot</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class='bx bxl-c-plus-plus' style="color: mediumblue;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">C++</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class="fa-brands fa-npm" style="color: crimson;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">NPM</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md col-sm pb-4">
+                <div class="card tecnicas bg-transparent">
+                    <i class='bx bxl-typescript' style="color: royalblue;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">TypeScript</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN HABILIDADES -->
+
+    <!-- INICIO EXPERIENCIA -->
+    <section id="experiencia" class="py-4 container">
+        <div class="bg-black w-100 rounded">
+            <h2 class="text-center text-white py-4">Experiencia</h2>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-4 col-sm-12 py-4">
+                <div class="card proyecto bg-transparent">
+                    <img src="img/veneno-home-min.png" class="rounded" alt="img-veneno-ecommerce">
+                    <div class="card-body">
+                        <h5 class="card-title">E-Commerce de Ropa</h5>
+                        <p class="card-text">He desarrollado una E-Commerce de ropa, en conjunto con un equipo de
+                            dasarrollo, para proyecto final de un curso de Digital House</p>
+                        <a href="https://github.com/Marquilokuras/grupo_2_veneno"  target="_blank"
+                            class="mx-2 rounded-circle btn btn-outline-light align-end"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 py-4">
+                <div class="card proyecto bg-transparent">
+                    <img src="img/gp.png" class="rounded" alt="img-pcyp">
+                    <div class="card-body">
+                        <h5 class="card-title">App de Gestion de Proyectos</h5>
+                        <p class="card-text">He desarrollado una app en c# y winforms para gestionar proyectos, usuarios
+                            y tareas. Esta app fue desarallada para una asignatura</p>
+                        <a href="https://github.com/Eliel181/AppGestionDeProyectos"  target="_blank"
+                            class="mx-2 rounded-circle btn btn-outline-light align-end"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 py-4">
+                <div class="card proyecto bg-transparent">
+                    <img src="img/mercado-liebre-min.png" class="rounded" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercado Liebre</h5>
+                        <p class="card-text">Desarrolle una replica de mercado liebre, la pagina es html y css puro,
+                            posee un login , un register y esta subido en Render</p>
+                        <a href="https://github.com/Eliel181/MercadoLibre-Practica"  target="_blank"
+                            class="mx-2 rounded-circle btn btn-outline-light align-end"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://mercado-liebre-adwr.onrender.com/"  target="_blank"
+                            class="mx-2 rounded-circle btn btn-outline-light align-end"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN EXPERIENCIA -->
+
+    <!-- INICIO EDUCACION -->
+    <section id="education" class="py-4 container">
+        <div class="bg-black w-100 rounded">
+            <h2 class="text-center text-white py-4">Educacion</h2>
+        </div>
+        <div class="container w-75 py-5">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/certificado-seguridad-inf-min.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Sergio Eliel Balero_page-0001-min.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- FIN EDUCACION -->
+
+    <!-- INICIO EDUCACION -->
+    <section id="learn" class="py-4 container d-flex align-items-center flex-column">
+        <div class="bg-black w-100 rounded">
+            <h2 class="text-center text-white py-4">Cosas que quiero aprender a futuro</h2>
+        </div>
+        <div class="row py-5 container d-flex justify-content-center">
+            <div class="card mb-3 bg-transparent " style="max-width: 540px;">
+                <div class="row g-0 d-flex align-items-center">
+                    <div class="col-md-4 container-img-learn">
+                        <img src="img/ciberseguridad-removebg-preview.png" class="img-learn w-100" alt="ciberseguridad">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Me gustaria aprender sobre Ciberseguridad</h5>
+                            <p class="card-text">Me gustaria hacer el curos de ciberseguridad de google. Poder conocer los metodos de segurirdad y vulnerabilidades que existen actualmente, ! Me Emociona mucho ¡</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row py-5 container d-flex justify-content-center">
+            <div class="card mb-3 bg-transparent " style="max-width: 540px;">
+                <div class="row g-0 d-flex align-items-center">
+                    <div class="col-md-4  container-img-learn">
+                        <img src="img/ux-ui.png" class="img-learn w-100" alt="ux-ui-img">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"> Diseño UX/UI </h5>
+                            <p class="card-text">Quiero mejorar mis conocimientos en el desarrollo de la experiencia de usuairo, es el aspecto mas debil de mis habilidades actualmente, por eso quiero mejorar ese apartado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN EDUCACION -->
+
+
+    <!-- INICIO VIDEO PRESENTACION -->
+    <section id="vid-presentacion" class="py-4 container">
+        <div class="bg-black w-100 rounded">
+            <h2 class="text-center text-white py-4">Video de Presentacion</h2>
+        </div>
+        <div class="container py-5 d-flex align-items-center justify-content-center ">
+            <iframe class="rounded" width="560" height="315" src="https://www.youtube.com/embed/Ycs7gq_fRcA?si=R09rSJikgDisolRu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- FIN VIDEO PRESENTACION -->
+
+    <!-- INICIO FORMULARIO DE CONTACTO -->
+    <section id="contact" class="py-4 container">
+        <div class="bg-black w-100 rounded">
+            <h2 class="text-center text-white py-4">Contacto</h2>
+        </div>
+        <div class="container cont-form rounded w-50 py-5">
+            <form action="enviarFormulario()" method="post" enctype="multipart/form-data" class="form-contact">
+                <input type="text" placeholder="Nombre" name="nombre" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <textarea name="mensaje" placeholder="Ingrese Mensaje" required></textarea>
+                <input class="btn btn-success mt-4 mb-2 rounded-pill py-2 px-4" type="submit" value="Enviar Mensaje">
+            </form>
+        </div>
+    </section>
+    <!-- FIN FORMULARIO DE CONTACTO -->
+
+    <!-- INCIO FOOTER -->
+    <footer class="py-4 bg-dark w-100">
+        <hr class="bg-light">
+        <p class="text-center text-light">&copy; 2024 <a href="#">Sergio Eliel Balero - Programacon y Servicios Web</a></p>
+    </footer>
+    <!-- FIN FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/js/script.js"></script>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
